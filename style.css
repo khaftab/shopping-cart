@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+:root {
+  --text-clr: #4f4f4f;
+}
+
+p {
+  color: #6c757d;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-clr);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--text-clr);
+}
+
+h2 {
+  color: var(--text-clr);
+  font-size: 1.5rem;
+}
+
+.main-cart {
+  background: #fff;
+}
+
+.card {
+  border: none;
+}
+
+.product img {
+  min-width: 200px;
+  max-height: 200px;
+}
+
+.product-name {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #000;
+}
+
+.cart-title p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.remove-wish p {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.price-money h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.set-quantity {
+  position: relative;
+  justify-content: flex-end;
+}
+
+.set-quantity::after {
+  content: "(Note, 1 piece)";
+  width: auto;
+  height: auto;
+  text-align: center;
+  position: absolute;
+  font-size: 0.8rem;
+  bottom: -20px;
+  right: 1.6rem;
+  /* left: 50%;
+  transform: translateX(-50%); */
+}
+
+.page-link {
+  line-height: 16px;
+  width: 45px;
+  font-size: 1rem;
+  color: #495057;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-item input {
+  line-height: 22px;
+  padding: 3px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page-link:focus {
+  box-shadow: none;
+}
+
+.price-individual p {
+  font-size: 1.1rem;
+}
+
+.fa-heart:hover {
+  color: red;
+}
